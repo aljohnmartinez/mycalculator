@@ -1,5 +1,6 @@
 /**
  * Author: Kristine Elaine P. Bautista
+ * Modified by: Al John B. Martinez
  * Program Description: Calculator of Simple Mathematical Functions
 **/
 
@@ -38,7 +39,7 @@ public class MyCalculator {
 	public int nfactorial(int n){
 		int factorial = 1;
 		
-		for(int i=1;i<n;i++)
+		for(int i=1;i<=n;i++) // Modified so that the case 
 			factorial *= i;
 		
 		return factorial;
